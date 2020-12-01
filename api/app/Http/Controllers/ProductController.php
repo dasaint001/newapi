@@ -28,6 +28,7 @@ class ProductController extends Controller
          // Creation of new products
         $product = new Product;
 
+        //New product body to be filled in order to create it.
        $product->name= $request->name;
        $product->email = $request->email;
        
